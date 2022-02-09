@@ -18,6 +18,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
+    targetPath: '$(Pipeline.Workspace)\s\bin'
     artifactType: 'pipeline'
-    artifactName: 'drop'
+    artifactName: 'Drop'
